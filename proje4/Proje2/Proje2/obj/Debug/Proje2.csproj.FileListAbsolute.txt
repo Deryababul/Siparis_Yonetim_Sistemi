@@ -1,0 +1,74 @@
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.csproj.AssemblyReference.cache
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.KullanıcıGirisi.resources
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.Musterimenu.resources
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.musteritakip.resources
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.Properties.Resources.resources
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.sepetim.resources
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.yetkilimenu.resources
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.ödeme.resources
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.csproj.GenerateResource.cache
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.csproj.CoreCompileInputs.cache
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\bin\Debug\Proje2.exe.config
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\bin\Debug\Proje2.exe
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\bin\Debug\Proje2.pdb
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.exe
+C:\Users\Eren\Desktop\PROJE\Proje\Proje2\Proje2\obj\Debug\Proje2.pdb
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\bin\Debug\Proje2.exe.config
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\bin\Debug\Proje2.exe
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\bin\Debug\Proje2.pdb
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.csproj.AssemblyReference.cache
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.KullanıcıGirisi.resources
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.Musterimenu.resources
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.musteritakip.resources
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.Properties.Resources.resources
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.sepetim.resources
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.yetkilimenu.resources
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.ödeme.resources
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.csproj.GenerateResource.cache
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.csproj.CoreCompileInputs.cache
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.exe
+C:\Users\Eren\Desktop\PROJE\Proje2\Proje2\obj\Debug\Proje2.pdb
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\bin\Debug\Proje2.exe.config
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\bin\Debug\Proje2.exe
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\bin\Debug\Proje2.pdb
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.KullanıcıGirisi.resources
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.Musterimenu.resources
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.musteritakip.resources
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.Properties.Resources.resources
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.sepetim.resources
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.yetkilimenu.resources
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.ödeme.resources
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.exe
+C:\Users\lenovo\Desktop\ödevnesne\Proje2\Proje2\obj\Debug\Proje2.pdb
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\bin\Debug\Proje2.exe.config
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\bin\Debug\Proje2.exe
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\bin\Debug\Proje2.pdb
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.csproj.AssemblyReference.cache
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.KullanıcıGirisi.resources
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.Musterimenu.resources
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.Properties.Resources.resources
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.sepetim.resources
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.yetkilimenu.resources
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.ödeme.resources
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.csproj.GenerateResource.cache
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.csproj.CoreCompileInputs.cache
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.exe
+C:\Users\Eren\Desktop\proje4\Proje2\Proje2\obj\Debug\Proje2.pdb
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\bin\Debug\Proje2.exe.config
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\bin\Debug\Proje2.exe
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\bin\Debug\Proje2.pdb
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.csproj.AssemblyReference.cache
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.csproj.SuggestedBindingRedirects.cache
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.KullanıcıGirisi.resources
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.Musterimenu.resources
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.Properties.Resources.resources
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.sepetim.resources
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.yetkilimenu.resources
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.ödeme.resources
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.csproj.GenerateResource.cache
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.csproj.CoreCompileInputs.cache
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.exe
+C:\Users\babul\OneDrive - uludag.edu.tr\Masaüstü\ders\3.sınıf\2.dönem\görsel prog\proje\Siparis-Otomasyonu\proje4\Proje2\Proje2\obj\Debug\Proje2.pdb
