@@ -39,13 +39,27 @@ namespace Proje2
             dataGridView1.DataSource = table;
             dataGridView1.AutoResizeColumns();
         }
+        SqlConnection baglanti2=new SqlConnection("Data Source=.;Initial Catalog=SiparisOtomasyonu;Integrated Security=True");
+
+        private void KargoGuncelle(object sender, EventArgs e)
+        {
+            string guncelle = "Update SiparişKaydı SET  KargoDurum=@KargoDurum where  id=@id";
+            con3 = new SqlCommand(guncelle, baglanti2);
+            con3.Parameters.AddWithValue("@id", Convert.ToInt32(textBoxSiparisId.Text));
+            con3.Parameters.AddWithValue("@KargoDurum", textBoxKargoDurum.Text);
+            
+            baglanti2.Open();
+            con3.ExecuteNonQuery();
+            baglanti2.Close();
+            MusteriTakip();
+        }
+
 
         private void yetkilimenu_Load(object sender, EventArgs e)
         {
             MusteriTakip();
             UrunTakip();
         }
-         SqlConnection baglanti2=new SqlConnection("Data Source=.;Initial Catalog=SiparisOtomasyonu;Integrated Security=True");
         
         private void ürüncıkarbutton_Click(object sender, EventArgs e)
         {
@@ -72,7 +86,8 @@ namespace Proje2
             con3.Parameters.AddWithValue("@id", Convert.ToInt32(txtboxUrunId.Text));
             con3.Parameters.AddWithValue("@UrunFiyati", Convert.ToInt32(txtboxUrunF.Text));
             con3.Parameters.AddWithValue("@UrunAgirligi", Convert.ToInt32(txtboxUrunA.Text));
-            con3.Parameters.AddWithValue("@UrunAciklama", txtboxUrunAciklama.Text);                    
+            con3.Parameters.AddWithValue("@UrunAciklama", txtboxUrunAciklama.Text);   
+            
             baglanti2.Open();
             con3.ExecuteNonQuery();
             baglanti2.Close();
@@ -166,6 +181,31 @@ namespace Proje2
             musterimenu.ps5Fiyati.Visible = true;
             musterimenu.ps5.Visible = true;
             MessageBox.Show("ps5 eklendi");
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

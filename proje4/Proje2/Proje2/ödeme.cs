@@ -75,11 +75,28 @@ namespace Proje2
 
         private void ödemeyapbutton_Click(object sender, EventArgs e)
         {
+            
+            SqlCommand c = new SqlCommand("Update SiparişKaydı SET Adres=@Adres where id=(Select (MAX(id)) From SiparişKaydı)", con);
+            c.Parameters.AddWithValue("@Adres", txtboxAdres.Text);
+            con.Open();
+            c.ExecuteNonQuery();
+            con.Close();
+
             MessageBox.Show("Ödemeniz yapılmıstır");
             MessageBox.Show("Siparişiniz Hazırlanıyor");
         }
 
         private void grpboxNakitBilgi_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }

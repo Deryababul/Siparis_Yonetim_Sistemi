@@ -75,5 +75,27 @@ namespace Proje2
         {
 
         }
+
+        private void KullanıcıGirisi_Load_1(object sender, EventArgs e)
+        {
+
+        }
+        private void KullaniciKayit(object sender, EventArgs e)
+        {
+
+            baglanti.Open();
+            SqlCommand cmd2 = new SqlCommand("Insert into Tbl_Musteri (MusteriAd , MusteriSifre, MusteriAdres) values (@k,@a, @b)", baglanti);
+            cmd2.Parameters.AddWithValue("@k", txtboxKullaniciAdi.Text); //box ile ismi değişecek
+            cmd2.Parameters.AddWithValue("@a", txtboxSifre.Text);
+            cmd2.Parameters.AddWithValue("@b", "");
+            cmd2.ExecuteNonQuery();
+            baglanti.Close();
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

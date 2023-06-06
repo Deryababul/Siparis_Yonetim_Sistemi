@@ -59,6 +59,14 @@
             this.airpods = new System.Windows.Forms.Button();
             this.telefon = new System.Windows.Forms.Button();
             this.macbook = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.grpboxUrunAciklama.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,7 +97,7 @@
             // 
             this.fiyatText.AutoSize = true;
             this.fiyatText.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.fiyatText.Location = new System.Drawing.Point(9, 306);
+            this.fiyatText.Location = new System.Drawing.Point(9, 303);
             this.fiyatText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.fiyatText.Name = "fiyatText";
             this.fiyatText.Size = new System.Drawing.Size(71, 26);
@@ -100,7 +108,7 @@
             // 
             this.macbookFiyat.AutoSize = true;
             this.macbookFiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.macbookFiyat.Location = new System.Drawing.Point(130, 306);
+            this.macbookFiyat.Location = new System.Drawing.Point(128, 303);
             this.macbookFiyat.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.macbookFiyat.Name = "macbookFiyat";
             this.macbookFiyat.Size = new System.Drawing.Size(77, 26);
@@ -111,30 +119,30 @@
             // 
             this.macbookAgirlik.AutoSize = true;
             this.macbookAgirlik.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.macbookAgirlik.Location = new System.Drawing.Point(115, 265);
+            this.macbookAgirlik.Location = new System.Drawing.Point(132, 340);
             this.macbookAgirlik.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.macbookAgirlik.Name = "macbookAgirlik";
-            this.macbookAgirlik.Size = new System.Drawing.Size(107, 26);
+            this.macbookAgirlik.Size = new System.Drawing.Size(64, 26);
             this.macbookAgirlik.TabIndex = 5;
-            this.macbookAgirlik.Text = "Macbook";
+            this.macbookAgirlik.Text = "1500";
             this.macbookAgirlik.Click += new System.EventHandler(this.macbookAgirlik_Click);
             // 
             // telefonAgirlik
             // 
             this.telefonAgirlik.AutoSize = true;
             this.telefonAgirlik.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.telefonAgirlik.Location = new System.Drawing.Point(322, 265);
+            this.telefonAgirlik.Location = new System.Drawing.Point(329, 340);
             this.telefonAgirlik.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.telefonAgirlik.Name = "telefonAgirlik";
-            this.telefonAgirlik.Size = new System.Drawing.Size(84, 26);
+            this.telefonAgirlik.Size = new System.Drawing.Size(51, 26);
             this.telefonAgirlik.TabIndex = 7;
-            this.telefonAgirlik.Text = "Iphone";
+            this.telefonAgirlik.Text = "500";
             // 
             // telefonFiyati
             // 
             this.telefonFiyati.AutoSize = true;
             this.telefonFiyati.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.telefonFiyati.Location = new System.Drawing.Point(322, 306);
+            this.telefonFiyati.Location = new System.Drawing.Point(316, 303);
             this.telefonFiyati.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.telefonFiyati.Name = "telefonFiyati";
             this.telefonFiyati.Size = new System.Drawing.Size(77, 26);
@@ -145,7 +153,7 @@
             // 
             this.airpodsFiyati.AutoSize = true;
             this.airpodsFiyati.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.airpodsFiyati.Location = new System.Drawing.Point(514, 306);
+            this.airpodsFiyati.Location = new System.Drawing.Point(505, 303);
             this.airpodsFiyati.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.airpodsFiyati.Name = "airpodsFiyati";
             this.airpodsFiyati.Size = new System.Drawing.Size(64, 26);
@@ -156,18 +164,18 @@
             // 
             this.airpodsAgirlik.AutoSize = true;
             this.airpodsAgirlik.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.airpodsAgirlik.Location = new System.Drawing.Point(491, 265);
+            this.airpodsAgirlik.Location = new System.Drawing.Point(514, 340);
             this.airpodsAgirlik.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.airpodsAgirlik.Name = "airpodsAgirlik";
-            this.airpodsAgirlik.Size = new System.Drawing.Size(100, 26);
+            this.airpodsAgirlik.Size = new System.Drawing.Size(51, 26);
             this.airpodsAgirlik.TabIndex = 10;
-            this.airpodsAgirlik.Text = " Airpods";
+            this.airpodsAgirlik.Text = "100";
             // 
             // ps5Fiyati
             // 
             this.ps5Fiyati.AutoSize = true;
             this.ps5Fiyati.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ps5Fiyati.Location = new System.Drawing.Point(501, 565);
+            this.ps5Fiyati.Location = new System.Drawing.Point(500, 559);
             this.ps5Fiyati.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ps5Fiyati.Name = "ps5Fiyati";
             this.ps5Fiyati.Size = new System.Drawing.Size(77, 26);
@@ -178,18 +186,18 @@
             // 
             this.ps5Agirlik.AutoSize = true;
             this.ps5Agirlik.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ps5Agirlik.Location = new System.Drawing.Point(507, 523);
+            this.ps5Agirlik.Location = new System.Drawing.Point(505, 597);
             this.ps5Agirlik.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ps5Agirlik.Name = "ps5Agirlik";
             this.ps5Agirlik.Size = new System.Drawing.Size(64, 26);
             this.ps5Agirlik.TabIndex = 21;
-            this.ps5Agirlik.Text = " PS5";
+            this.ps5Agirlik.Text = "4500";
             // 
             // droneFiyati
             // 
             this.droneFiyati.AutoSize = true;
             this.droneFiyati.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.droneFiyati.Location = new System.Drawing.Point(322, 565);
+            this.droneFiyati.Location = new System.Drawing.Point(316, 561);
             this.droneFiyati.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.droneFiyati.Name = "droneFiyati";
             this.droneFiyati.Size = new System.Drawing.Size(77, 26);
@@ -200,29 +208,29 @@
             // 
             this.droneAgirlik.AutoSize = true;
             this.droneAgirlik.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.droneAgirlik.Location = new System.Drawing.Point(320, 523);
+            this.droneAgirlik.Location = new System.Drawing.Point(331, 600);
             this.droneAgirlik.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.droneAgirlik.Name = "droneAgirlik";
-            this.droneAgirlik.Size = new System.Drawing.Size(86, 26);
+            this.droneAgirlik.Size = new System.Drawing.Size(51, 26);
             this.droneAgirlik.TabIndex = 18;
-            this.droneAgirlik.Text = "Xiaomi";
+            this.droneAgirlik.Text = "900";
             // 
             // tabletAgirlik
             // 
             this.tabletAgirlik.AutoSize = true;
             this.tabletAgirlik.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabletAgirlik.Location = new System.Drawing.Point(151, 523);
+            this.tabletAgirlik.Location = new System.Drawing.Point(149, 600);
             this.tabletAgirlik.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tabletAgirlik.Name = "tabletAgirlik";
-            this.tabletAgirlik.Size = new System.Drawing.Size(61, 26);
+            this.tabletAgirlik.Size = new System.Drawing.Size(51, 26);
             this.tabletAgirlik.TabIndex = 16;
-            this.tabletAgirlik.Text = "IPad";
+            this.tabletAgirlik.Text = "800";
             // 
             // tabletFiyati
             // 
             this.tabletFiyati.AutoSize = true;
             this.tabletFiyati.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabletFiyati.Location = new System.Drawing.Point(142, 565);
+            this.tabletFiyati.Location = new System.Drawing.Point(138, 561);
             this.tabletFiyati.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tabletFiyati.Name = "tabletFiyati";
             this.tabletFiyati.Size = new System.Drawing.Size(77, 26);
@@ -233,7 +241,7 @@
             // 
             this.fiyat2Text.AutoSize = true;
             this.fiyat2Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.fiyat2Text.Location = new System.Drawing.Point(9, 565);
+            this.fiyat2Text.Location = new System.Drawing.Point(9, 562);
             this.fiyat2Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.fiyat2Text.Name = "fiyat2Text";
             this.fiyat2Text.Size = new System.Drawing.Size(71, 26);
@@ -414,12 +422,108 @@
             this.macbook.UseVisualStyleBackColor = true;
             this.macbook.Click += new System.EventHandler(this.macbookbutton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(9, 340);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 26);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Agirlik:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(117, 265);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(107, 26);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "Macbook";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(315, 265);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(87, 26);
+            this.label3.TabIndex = 40;
+            this.label3.Text = "IPhone";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(493, 265);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(93, 26);
+            this.label4.TabIndex = 41;
+            this.label4.Text = "Airpods";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(142, 522);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 26);
+            this.label5.TabIndex = 42;
+            this.label5.Text = "Ipad";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(315, 522);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(86, 26);
+            this.label6.TabIndex = 43;
+            this.label6.Text = "Xiaomi";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(505, 522);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(57, 26);
+            this.label7.TabIndex = 44;
+            this.label7.Text = "PS5";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(11, 600);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(86, 26);
+            this.label8.TabIndex = 45;
+            this.label8.Text = "Agirlik:";
+            // 
             // Musterimenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(962, 635);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.telefonText);
             this.Controls.Add(this.yenisezonText);
             this.Controls.Add(this.grpboxUrunAciklama);
@@ -453,6 +557,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Musterimenu";
             this.Text = "Musterimenu";
+            this.Load += new System.EventHandler(this.Musterimenu_Load_1);
             this.grpboxUrunAciklama.ResumeLayout(false);
             this.grpboxUrunAciklama.PerformLayout();
             this.ResumeLayout(false);
@@ -493,5 +598,13 @@
         public System.Windows.Forms.Label lblUrunAciklama;
         public System.Windows.Forms.Label yenisezonText;
         public System.Windows.Forms.Label telefonText;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.Label label8;
     }
 }

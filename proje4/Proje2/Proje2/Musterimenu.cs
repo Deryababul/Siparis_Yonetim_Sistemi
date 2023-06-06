@@ -245,7 +245,12 @@ namespace Proje2
                             da.Fill(dt);
                             adres = dt.Rows[0]["MusteriAdres"].ToString();
                             SqlCommand com = new SqlCommand("Insert into Sepet (UrunAdi,UrunFiyati,UrunAgirligi,UrunAdedi) values (@a,@b,@c,@d)", con);
-                            Urun urun = new Urun { Fiyat = Convert.ToInt32(Convert.ToInt32(macbookFiyat.Text) * Convert.ToInt32(musterimenutextbox.Text)), Agirlik = Convert.ToInt32(Convert.ToInt32(macbookAgirlik.Text) * Convert.ToInt32(musterimenutextbox.Text)), UrunAdi = "macbook", UrunAdedi = Convert.ToInt32(musterimenutextbox.Text) };
+                            //Urun urun = new Urun { Fiyat = Convert.ToInt32(Convert.ToInt32(macbookFiyat.Text) * Convert.ToInt32(musterimenutextbox.Text)), Agirlik = Convert.ToInt32(Convert.ToInt32(macbookAgirlik.Text) * Convert.ToInt32(musterimenutextbox.Text)), UrunAdi = "macbook", UrunAdedi = Convert.ToInt32(musterimenutextbox.Text) };
+                            Urun urun = new Urun();
+                            urun.Fiyat = Convert.ToInt32(Convert.ToInt32(macbookFiyat.Text) * Convert.ToInt32(musterimenutextbox.Text));
+                            urun.Agirlik = Convert.ToInt32(Convert.ToInt32(macbookAgirlik.Text) * Convert.ToInt32(musterimenutextbox.Text));
+                            urun.UrunAdedi = Convert.ToInt32(musterimenutextbox.Text);
+                            urun.UrunAdi = "macbook";
                             m.Urunler.Add(urun);
                             com.Parameters.AddWithValue("@k",KullanıcıGirisi.kullanıcı);
                             com.Parameters.AddWithValue("@a", urun.UrunAdi);
@@ -329,6 +334,7 @@ namespace Proje2
                             adres3 = dt3.Rows[0]["MusteriAdres"].ToString();
                             SqlCommand com4 = new SqlCommand("Insert into Sepet (UrunAdi,UrunFiyati,UrunAgirligi,UrunAdedi) values (@a,@b,@c,@d)", con);
                             Urun urun3 = new Urun { Fiyat = Convert.ToInt32(tabletFiyati.Text) * Convert.ToInt32(musterimenutextbox.Text), Agirlik = Convert.ToInt32(tabletAgirlik.Text) * Convert.ToInt32(musterimenutextbox.Text), UrunAdi = "tablet", UrunAdedi = Convert.ToInt32(musterimenutextbox.Text) };
+                            
                             m.Urunler.Add(urun3);
                             com4.Parameters.AddWithValue("@a", urun3.UrunAdi);
                             com4.Parameters.AddWithValue("@b", urun3.Fiyat);
@@ -419,6 +425,11 @@ namespace Proje2
         }
 
         private void macbookAgirlik_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Musterimenu_Load_1(object sender, EventArgs e)
         {
 
         }

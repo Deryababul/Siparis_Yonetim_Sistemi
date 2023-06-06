@@ -33,7 +33,7 @@ namespace Proje2
             this.ürüncıkarbutton = new System.Windows.Forms.Button();
             this.güncellebutton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.UrunlerTab = new System.Windows.Forms.TabControl();
+            this.KargoTab = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.txtboxUrunId = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -46,20 +46,28 @@ namespace Proje2
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBoxKargoDurum = new System.Windows.Forms.TextBox();
+            this.textBoxSiparisId = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.UrunlerTab.SuspendLayout();
+            this.KargoTab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // ürüneklebutton
             // 
             this.ürüneklebutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ürüneklebutton.Location = new System.Drawing.Point(257, 434);
+            this.ürüneklebutton.Location = new System.Drawing.Point(14, 490);
             this.ürüneklebutton.Margin = new System.Windows.Forms.Padding(5);
             this.ürüneklebutton.Name = "ürüneklebutton";
-            this.ürüneklebutton.Size = new System.Drawing.Size(167, 54);
+            this.ürüneklebutton.Size = new System.Drawing.Size(181, 54);
             this.ürüneklebutton.TabIndex = 0;
             this.ürüneklebutton.Text = "Ürün Ekle";
             this.ürüneklebutton.UseVisualStyleBackColor = false;
@@ -68,9 +76,9 @@ namespace Proje2
             // ürüncıkarbutton
             // 
             this.ürüncıkarbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ürüncıkarbutton.Location = new System.Drawing.Point(448, 434);
+            this.ürüncıkarbutton.Location = new System.Drawing.Point(223, 434);
             this.ürüncıkarbutton.Name = "ürüncıkarbutton";
-            this.ürüncıkarbutton.Size = new System.Drawing.Size(180, 54);
+            this.ürüncıkarbutton.Size = new System.Drawing.Size(159, 54);
             this.ürüncıkarbutton.TabIndex = 1;
             this.ürüncıkarbutton.Text = "Ürün Çıkar";
             this.ürüncıkarbutton.UseVisualStyleBackColor = false;
@@ -79,9 +87,9 @@ namespace Proje2
             // güncellebutton
             // 
             this.güncellebutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.güncellebutton.Location = new System.Drawing.Point(12, 434);
+            this.güncellebutton.Location = new System.Drawing.Point(16, 434);
             this.güncellebutton.Name = "güncellebutton";
-            this.güncellebutton.Size = new System.Drawing.Size(218, 54);
+            this.güncellebutton.Size = new System.Drawing.Size(179, 54);
             this.güncellebutton.TabIndex = 2;
             this.güncellebutton.Text = "Ürün Güncelle";
             this.güncellebutton.UseVisualStyleBackColor = false;
@@ -99,15 +107,16 @@ namespace Proje2
             this.dataGridView1.Size = new System.Drawing.Size(980, 328);
             this.dataGridView1.TabIndex = 4;
             // 
-            // UrunlerTab
+            // KargoTab
             // 
-            this.UrunlerTab.Controls.Add(this.tabPage1);
-            this.UrunlerTab.Controls.Add(this.tabPage2);
-            this.UrunlerTab.Location = new System.Drawing.Point(12, 54);
-            this.UrunlerTab.Name = "UrunlerTab";
-            this.UrunlerTab.SelectedIndex = 0;
-            this.UrunlerTab.Size = new System.Drawing.Size(994, 372);
-            this.UrunlerTab.TabIndex = 6;
+            this.KargoTab.Controls.Add(this.tabPage1);
+            this.KargoTab.Controls.Add(this.tabPage2);
+            this.KargoTab.Controls.Add(this.tabPage3);
+            this.KargoTab.Location = new System.Drawing.Point(12, 54);
+            this.KargoTab.Name = "KargoTab";
+            this.KargoTab.SelectedIndex = 0;
+            this.KargoTab.Size = new System.Drawing.Size(994, 372);
+            this.KargoTab.TabIndex = 6;
             // 
             // tabPage1
             // 
@@ -203,6 +212,7 @@ namespace Proje2
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(656, 310);
             this.dataGridView2.TabIndex = 0;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             this.dataGridView2.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellEnter);
             // 
             // tabPage2
@@ -219,13 +229,83 @@ namespace Proje2
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.Location = new System.Drawing.Point(739, 434);
+            this.button1.Location = new System.Drawing.Point(799, 492);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(263, 54);
+            this.button1.Size = new System.Drawing.Size(203, 54);
             this.button1.TabIndex = 7;
             this.button1.Text = "Müşteri menü kontrol";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button2.Location = new System.Drawing.Point(407, 434);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(180, 54);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Ürün Çıkar";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.textBoxSiparisId);
+            this.tabPage3.Controls.Add(this.label1);
+            this.tabPage3.Controls.Add(this.label6);
+            this.tabPage3.Controls.Add(this.textBoxKargoDurum);
+            this.tabPage3.Location = new System.Drawing.Point(4, 34);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(986, 334);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Kargo Takip";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button3.Location = new System.Drawing.Point(744, 434);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(258, 54);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Kargo Durumu Güncelle";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.KargoGuncelle);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(30, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(95, 25);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Sipariş Id:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(30, 73);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(144, 25);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Kargo Durumu:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // textBoxKargoDurum
+            // 
+            this.textBoxKargoDurum.Location = new System.Drawing.Point(211, 69);
+            this.textBoxKargoDurum.Name = "textBoxKargoDurum";
+            this.textBoxKargoDurum.Size = new System.Drawing.Size(120, 33);
+            this.textBoxKargoDurum.TabIndex = 10;
+            this.textBoxKargoDurum.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // textBoxSiparisId
+            // 
+            this.textBoxSiparisId.Location = new System.Drawing.Point(211, 30);
+            this.textBoxSiparisId.Name = "textBoxSiparisId";
+            this.textBoxSiparisId.Size = new System.Drawing.Size(120, 33);
+            this.textBoxSiparisId.TabIndex = 13;
             // 
             // yetkilimenu
             // 
@@ -233,8 +313,10 @@ namespace Proje2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1018, 558);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.UrunlerTab);
+            this.Controls.Add(this.KargoTab);
             this.Controls.Add(this.güncellebutton);
             this.Controls.Add(this.ürüncıkarbutton);
             this.Controls.Add(this.ürüneklebutton);
@@ -244,11 +326,13 @@ namespace Proje2
             this.Text = "Yetkili Menü";
             this.Load += new System.EventHandler(this.yetkilimenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.UrunlerTab.ResumeLayout(false);
+            this.KargoTab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -258,7 +342,7 @@ namespace Proje2
         private System.Windows.Forms.Button ürüneklebutton;
         private System.Windows.Forms.Button ürüncıkarbutton;
         private System.Windows.Forms.Button güncellebutton;
-        private System.Windows.Forms.TabControl UrunlerTab;
+        private System.Windows.Forms.TabControl KargoTab;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.DataGridView dataGridView2;
@@ -272,5 +356,12 @@ namespace Proje2
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBoxKargoDurum;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBoxSiparisId;
     }
 }
